@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hamburger {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none; /* Hide navigation links */
+      flex-direction: column;
+      position: absolute;
+      background-color: #333;
+      width: 100%;
+      top: 70px; /* Adjust based on your design */
+      left: 0;
+      text-align: center;
+    }
+  
+    .show {
+      display: flex; /* Show navigation links */
+    }
+  
+    .hamburger {
+      display: block; /* Show hamburger icon */
+    }
+  }
+  

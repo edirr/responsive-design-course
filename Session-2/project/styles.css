@@ -1,20 +1,19 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  font-size: 22px; /* Default font size */
-}
-
-nav {
-  background-color: #333;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-}
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
   
   .logo {
-    font-size: 22px;
+    font-size: 1.5rem;
   }
   
   .nav-links {
@@ -58,24 +57,5 @@ nav {
     .hamburger {
       display: block; /* Show hamburger icon */
     }
-
-    body {
-      font-size: 14px; /* Adjust the font size for smaller screens */
-    }
   }
-
-/* Media query for screens smaller than 480px */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px; /* Adjust the font size for even smaller screens */
-  }
-}
-
-/* Media query for screens smaller than 320px */
-@media (max-width: 320px) {
-  body {
-    font-size: 10px; /* Adjust the font size for very small screens */
-  }
-}
-
   

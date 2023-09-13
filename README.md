@@ -1,1 +1,1 @@
-# responsive-design-course
+# Responsive Design Course
